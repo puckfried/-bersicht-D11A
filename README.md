@@ -1,5 +1,9 @@
 # Übericht über HTML und CSS Befehle
 
+Hier findet ihr eine fortlaufende Übersicht über unsere bislang kennengelernten Elemente in HTML und die CSS Eigenschaften. Die Übersicht wird in den nächsten Tagen immer um die neuen Werte ergänzt.
+<br><br>
+
+## Übersicht
 1. [HTML](#html-elemente)
 2. [CSS](#css-eigenschaften)
 
@@ -26,7 +30,6 @@
 <br><br><br>
 ## CSS-Eigenschaften
 
-CSS (Cascading Style Sheets) wird verwendet, um das Aussehen und Layout von HTML-Elementen zu gestalten. Hier ist eine Tabelle mit einigen grundlegenden CSS-Eigenschaften, sortiert nach ihren Anwendungskategorien:
 
 ### Textformatierung
 | Eigenschaft       | Beschreibung                                   | Beispiel                        |
