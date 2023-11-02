@@ -23,7 +23,7 @@
     | `<a>`        | Hyperlink (intern, extern)      | `<a href="url">Linktext</a>`          |
     | `<img>`      | Bild                            | `<img src="bild.jpg" alt="Beschreibung">` |
 
-
+<br><br><br>
 ## CSS-Eigenschaften
 
 CSS (Cascading Style Sheets) wird verwendet, um das Aussehen und Layout von HTML-Elementen zu gestalten. Hier ist eine Tabelle mit einigen grundlegenden CSS-Eigenschaften, sortiert nach ihren Anwendungskategorien:
