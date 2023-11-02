@@ -4,8 +4,17 @@ Hier findet ihr eine fortlaufende Übersicht über unsere bislang kennengelernte
 <br><br>
 
 ## Übersicht
-1. [HTML](#html-elemente)
-2. [CSS](#css-eigenschaften)
+1. [HTML-Elemente](#html-elemente)
+   - [Block Elemente](#block-elemente)
+   - [Inline Elemente](#inline-elemente)
+2. [CSS-Eigenschaften](#css-eigenschaften)
+   - [Textformatierung](#textformatierung)
+   - [Größen](#größen)
+   - [Abstände und Rahmen](#abstände-und-rahmen)
+   - [Hintergrund](#hintergrund)
+
+
+<br><br><br>
 
 ## HTML-Elemente
 
