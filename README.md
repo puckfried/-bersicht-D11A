@@ -30,6 +30,8 @@ Hier findet ihr eine fortlaufende Übersicht über unsere bislang kennengelernte
     | HTML-Element | Beschreibung                    | Beispiel                              |
     |:------------:|:-------------------------------:|:-------------------------------------:|
     | `<a>`        | Hyperlink (intern, extern)      | `<a href="url">Linktext</a>`          |
+    | `<br>`       | Spezielles leeres Element für Zeilenumbrüche  | `Dies ist ein Text<br>neue Zeile`         |
+    | `<img>`      | Bild einfügen                                 | `<img src="url" alt="Bildbeschreibung">`  |
 
 <br><br><br>
 ## CSS-Eigenschaften
