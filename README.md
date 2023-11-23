@@ -1,4 +1,4 @@
-# Übericht über HTML und CSS Befehle
+# Übersicht HTML und CSS Befehle
 
 Hier findet ihr eine fortlaufende Übersicht über unsere bislang kennengelernten Elemente in HTML und die CSS Eigenschaften. Die Übersicht wird in den nächsten Tagen immer um die neuen Werte ergänzt.
 <br><br>
