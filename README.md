@@ -41,6 +41,17 @@ Hier findet ihr eine fortlaufende Übersicht über unsere bislang kennengelernte
 <br><br><br>
 ## CSS-Eigenschaften
 
+### Textformatierung
+| Eigenschaft       | Beschreibung                                   | Beispiel                        |
+|-------------------|------------------------------------------------|---------------------------------|
+| `color`           | Setzt die Textfarbe.                           | `color: blue;`                  |
+| `font-size`       | Bestimmt die Schriftgröße.                     | `font-size: 16px;`              |
+| `text-decoration` | Fügt Dekorationen wie Unterstreichungen hinzu. | `text-decoration: underline;`   |
+| `font-weight`     | Definiert die Dicke der Schrift.               | `font-weight: bold;`            |
+| `font-family`     | Bestimmt die Schriftart.                       | `font-family: Arial, sans-serif;`|
+| `font-style`      | Legt den Stil der Schrift fest (z.B. kursiv).  | `font-style: italic;`           |
+
+
 
 ## Nützliche Tastenkombinationen (Windows)
 
