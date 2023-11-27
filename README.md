@@ -12,7 +12,7 @@ Hier findet ihr eine fortlaufende Übersicht über unsere bislang kennengelernte
    - [Größen](#größen)
    - [Abstände und Rahmen](#abstände-und-rahmen)
    - [Hintergrund](#hintergrund)
-
+3. [Nützliche Tastenkombinationen](#nützliche-tastenkombinationen-windows)
 
 <br><br><br>
 
