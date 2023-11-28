@@ -5,8 +5,11 @@ Hier findet ihr eine fortlaufende Übersicht über unsere bislang kennengelernte
 
 ## Übersicht
 1. [HTML-Elemente](#html-elemente)
-   - [Block Elemente](#block-elemente)
-   - [Inline Elemente](#inline-elemente)
+   - [Grundstruktur](#0-grundstruktur-einer-html-seite)
+   - [Head-Elemente](#1-head-elemente-erscheinen-nicht-auf-der-seite-sondern-nur-infos-für-den-browser-und-google)
+   - [Body-Elemente](#2-body-elemente-der-sichtbare-bereich-eurer-webseite)
+       - [Block Elemente](#21-block-elemente-nehmen-die-gesamte-breite-des-bildschirms-ein)
+       - [Inline Elemente](#22-inline-elemente-nehmen-nur-die-breite-ihres-inhalts)
 2. [CSS-Eigenschaften](#css-eigenschaften)
    - [Textformatierung](#textformatierung)
    - [Größen](#größen)
@@ -18,7 +21,43 @@ Hier findet ihr eine fortlaufende Übersicht über unsere bislang kennengelernte
 
 ## HTML-Elemente
 
-1. Block Elemente (nehmen gesamte Breite des Elternelements)
+**HTML** steht für ***Hypertext Markup Language*** und ist eine Auszeichnungssprache, die verwendet wird, um den Inhalt einer Webseite zu strukturieren und zu kennzeichnen. Mit HTML können verschiedene Elemente wie Überschriften, Absätze, Bilder und Links definiert werden. Diese Elemente können dann mit CSS gestaltet werden, um eine ansprechende Webseite zu erstellen. <br>
+Folgende Elemente haben wir bislang kennengelernt: 
+
+### 0. Grundstruktur einer HTML-Seite
+
+    | HTML-Element    | Beschreibung                                    | Beispiel                              |
+    |:---------------:|:-----------------------------------------------:|:-------------------------------------:|
+    | `<!DOCTYPE html>`| Definiert den Dokumenttyp und die HTML-Version  | `<!DOCTYPE html>`                     |
+    | `<html>`        | Wurzelelement einer HTML-Seite                  | `<html>...</html>`                    |
+    | `<head>`        | Enthält Metadaten und Links zu Stylesheets etc. | `<head>...</head>`                    |
+    | `<body>`        | Enthält den sichtbaren Inhalt der Webseite      | `<body>...</body>`                    |
+<br>
+
+***Beispiel***
+
+```
+<!DOCTYPE html>
+<html>
+    <head>...</head>
+    <body>...</body>
+</html>
+```
+
+<br>
+
+### 1. Head-Elemente (erscheinen nicht auf der Seite, sondern nur Infos für den Browser und Google)
+
+    | HTML-Element | Beschreibung                                           | Beispiel                                 |
+    |:------------:|:------------------------------------------------------:|:----------------------------------------:|
+    | `<title>`    | Titel der Webseite, erscheint in der Browser-Tab-Leiste | `<title>Meine Webseite</title>`          |
+    | `<meta>`     | Metainformationen, z.B. Zeichensatz oder Keywords       | `<meta charset="UTF-8">`                 |
+    | `<link>`     | Verknüpfung mit externen Dateien, z.B. CSS-Stylesheets  | `<link rel="stylesheet" href="style.css">`|
+
+
+### 2. Body-Elemente (der sichtbare Bereich eurer Webseite)
+    
+#### 2.1 Block-Elemente (nehmen die gesamte Breite des Bildschirms ein)
 
     | HTML-Element  | Beschreibung                               | Beispiel                             |
     |:-------------:|:------------------------------------------:|:------------------------------------:|
@@ -30,7 +69,7 @@ Hier findet ihr eine fortlaufende Übersicht über unsere bislang kennengelernte
 
 
    
-2. Inline Elemente (nehmen nur die Breite ihres Inhalts)
+#### 2.2 Inline Elemente (nehmen nur die Breite ihres Inhalts)
 
     | HTML-Element | Beschreibung                    | Beispiel                              |
     |:------------:|:-------------------------------:|:-------------------------------------:|
