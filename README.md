@@ -26,12 +26,12 @@ Folgende Elemente haben wir bislang kennengelernt:
 
 ### 0. Grundstruktur einer HTML-Seite
 
-    | HTML-Element    | Beschreibung                                    | Beispiel                              |
-    |:---------------:|:-----------------------------------------------:|:-------------------------------------:|
-    | `<!DOCTYPE html>`| Definiert den Dokumenttyp und die HTML-Version  | `<!DOCTYPE html>`                     |
-    | `<html>`        | Wurzelelement einer HTML-Seite                  | `<html>...</html>`                    |
-    | `<head>`        | Enthält Metadaten und Links zu Stylesheets etc. | `<head>...</head>`                    |
-    | `<body>`        | Enthält den sichtbaren Inhalt der Webseite      | `<body>...</body>`                    |
+| HTML-Element    | Beschreibung                                    | Beispiel                              |
+|:---------------:|:-----------------------------------------------:|:-------------------------------------:|
+| `<!DOCTYPE html>`| Definiert den Dokumenttyp und die HTML-Version  | `<!DOCTYPE html>`                     |
+| `<html>`        | Wurzelelement einer HTML-Seite                  | `<html>...</html>`                    |
+| `<head>`        | Enthält Metadaten und Links zu Stylesheets etc. | `<head>...</head>`                    |
+| `<body>`        | Enthält den sichtbaren Inhalt der Webseite      | `<body>...</body>`                    |
 <br>
 
 ***Beispiel***
@@ -48,34 +48,35 @@ Folgende Elemente haben wir bislang kennengelernt:
 
 ### 1. Head-Elemente (erscheinen nicht auf der Seite, sondern nur Infos für den Browser und Google)
 
-    | HTML-Element | Beschreibung                                           | Beispiel                                 |
-    |:------------:|:------------------------------------------------------:|:----------------------------------------:|
-    | `<title>`    | Titel der Webseite, erscheint in der Browser-Tab-Leiste | `<title>Meine Webseite</title>`          |
-    | `<meta>`     | Metainformationen, z.B. Zeichensatz oder Keywords       | `<meta charset="UTF-8">`                 |
-    | `<link>`     | Verknüpfung mit externen Dateien, z.B. CSS-Stylesheets  | `<link rel="stylesheet" href="style.css">`|
+| HTML-Element | Beschreibung                                           | Beispiel                                 |
+|:------------:|:------------------------------------------------------:|:----------------------------------------:|
+| `<title>`    | Titel der Webseite, erscheint in der Browser-Tab-Leiste | `<title>Meine Webseite</title>`          |
+| `<meta>`     | Metainformationen, z.B. Zeichensatz oder Keywords       | `<meta charset="UTF-8">`                 |
+| `<link>`     | Verknüpfung mit externen Dateien, z.B. CSS-Stylesheets  | `<link rel="stylesheet" href="style.css">`|
 
 
 ### 2. Body-Elemente (der sichtbare Bereich eurer Webseite)
     
 #### 2.1 Block-Elemente (nehmen die gesamte Breite des Bildschirms ein)
 
-    | HTML-Element  | Beschreibung                               | Beispiel                             |
-    |:-------------:|:------------------------------------------:|:------------------------------------:|
-    | `<h1>`...`<h6>` | Überschriften                            | `<h1>Überschrift</h1>`               |
-    | `<p>`          | Textabsatz                                | `<p>Textabsatz</p>`                  |
-    | `<ul>`         | Ungeordnete Liste                         | `<ul><li>Element</li></ul>`          |
-    | `<ol>`         | Geordnete Liste                           | `<ol><li>Erstes Element</li></ol>`   |
-    | `<li>`         | Listenelement                             | `<li>Listeneintrag</li>`             |
+| HTML-Element  | Beschreibung                               | Beispiel                             |
+|:-------------:|:------------------------------------------:|:------------------------------------:|
+| `<h1>`...`<h6>` | Überschriften                            | `<h1>Überschrift</h1>`               |
+| `<p>`          | Textabsatz                                | `<p>Textabsatz</p>`                  |
+| `<ul>`         | Ungeordnete Liste                         | `<ul><li>Element</li></ul>`          |
+| `<ol>`         | Geordnete Liste                           | `<ol><li>Erstes Element</li></ol>`   |
+| `<li>`         | Listenelement                             | `<li>Listeneintrag</li>`             |
+| `<div>`        | Containerelement                          | `<div>Inhalt</div>`                  |
 
 
    
 #### 2.2 Inline Elemente (nehmen nur die Breite ihres Inhalts)
 
-    | HTML-Element | Beschreibung                    | Beispiel                              |
-    |:------------:|:-------------------------------:|:-------------------------------------:|
-    | `<a>`        | Hyperlink (intern, extern)      | `<a href="url">Linktext</a>`          |
-    | `<br>`       | Spezielles leeres Element für Zeilenumbrüche  | `Dies ist ein Text<br>neue Zeile`         |
-    | `<img>`      | Bild einfügen                                 | `<img src="url" alt="Bildbeschreibung">`  |
+| HTML-Element | Beschreibung                    | Beispiel                              |
+|:------------:|:-------------------------------:|:-------------------------------------:|
+| `<a>`        | Hyperlink (intern, extern)      | `<a href="url">Linktext</a>`          |
+| `<br>`       | Spezielles leeres Element für Zeilenumbrüche  | `Dies ist ein Text<br>neue Zeile`         |
+| `<img>`      | Bild einfügen                                 | `<img src="url" alt="Bildbeschreibung">`  |
 
 <br><br><br>
 ## CSS-Eigenschaften
@@ -90,8 +91,25 @@ Folgende Elemente haben wir bislang kennengelernt:
 | `font-family`     | Bestimmt die Schriftart.                       | `font-family: Arial, sans-serif;`|
 | `font-style`      | Legt den Stil der Schrift fest (z.B. kursiv).  | `font-style: italic;`           |
 
+### Größen
+| Eigenschaft | Beschreibung                            | Beispiel              |
+|-------------|-----------------------------------------|-----------------------|
+| `width`     | Setzt die Breite eines Elements.        | `width: 100px;`       |
+| `height`    | Bestimmt die Höhe eines Elements.       | `height: 200px;`      |
 
+### Abstände und Rahmen
+| Eigenschaft | Beschreibung                                   | Beispiel             |
+|-------------|------------------------------------------------|----------------------|
+| `margin`    | Definiert den Außenabstand um ein Element herum.| `margin: 10px;`     |
+| `padding`   | Setzt den Innenabstand innerhalb eines Elements.| `padding: 20px;`    |
+| `border`    | Fügt einen Rand um das Element hinzu.           | `border: 1px solid black;`|
 
+### Hintergrund
+| Eigenschaft        | Beschreibung                          | Beispiel                    |
+|--------------------|---------------------------------------|-----------------------------|
+| `background-color` | Legt die Hintergrundfarbe fest.       | `background-color: yellow;` |
+
+<br><br><br>
 ## Nützliche Tastenkombinationen (Windows)
 
 Es ist hilfreich einige Tastenkombinationen für häufige Handlungen zu lernen. Mit der Tastatur könnt ihr schneller arbeiten und es entstehen weniger Fehler als bei der Benutzung mit der Maus (Touchpad). Vielleicht seit ihr am Anfang etwas langsamer, aber auf lange Sicht lohnt sich das Lernen.
