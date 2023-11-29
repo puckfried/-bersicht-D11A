@@ -57,7 +57,7 @@ Folgende Elemente haben wir bislang kennengelernt:
 
 ### 2. Body-Elemente (der sichtbare Bereich eurer Webseite)
     
-#### 2.1 Block-Elemente (nehmen die gesamte Breite des Bildschirms ein)
+#### 2.1 Block-Elemente (nehmen die gesamte Breite des Elternelements ein)
 
 | HTML-Element  | Beschreibung                               | Beispiel                             |
 |:-------------:|:------------------------------------------:|:------------------------------------:|
