@@ -106,10 +106,18 @@ Folgende Elemente haben wir bislang kennengelernt:
 | `padding`   | Setzt den Innenabstand innerhalb eines Elements.| `padding: 20px;`    |
 | `border`    | Fügt einen Rand um das Element hinzu.           | `border: 1px solid black;`|
 
+
 ### Hintergrund
-| Eigenschaft        | Beschreibung                          | Beispiel                    |
-|--------------------|---------------------------------------|-----------------------------|
-| `background-color` | Legt die Hintergrundfarbe fest.       | `background-color: yellow;` |
+| Eigenschaft           | Beschreibung                                          | Beispiel                            |
+|-----------------------|-------------------------------------------------------|-------------------------------------|
+| `background-color`    | Legt die Hintergrundfarbe fest.                       | `background-color: yellow;`         |
+| `background-size`     | Bestimmt die Größe des Hintergrundbildes.             | `background-size: cover;`           |
+| `background-repeat`   | Legt fest, ob und wie das Hintergrundbild wiederholt wird. | `background-repeat: no-repeat;`     |
+| `background-position` | Definiert die Position des Hintergrundbildes.         | `background-position: center;`      |
+| `background-attachment` | Legt fest, ob das Hintergrundbild scrollt oder fixiert ist. | `background-attachment: fixed;` |
+
+
+
 
 <br><br><br>
 ## Nützliche Tastenkombinationen (Windows)
